@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CosmosDbConnectionString": "AccountEndpoint=https://jehollan-inventory.documents.azure.com:443/;AccountKey=OT0XzOghoRWJ3vW6SPFnsNULANAenza40rUGo2X56ni4edvMYz3s3IG5xBHi6UuFjMufmGQwi0bEfuoiYH5zrg==;",
+    "ServiceBusConnectionString": "Endpoint=sb://inventory-event-driver.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Cm6BCDnU7jYbLdU/RwaBpxTzmZclS3c4WjepH2lDETs=",
+    "EventHubsConnectionString": "Endpoint=sb://jehollan-inventory.servicebus.windows.net/;SharedAccessKeyName=functionsender;SharedAccessKey=jGjm3po0c8PzYKjOHvxvQq/3zIrkAgS9mltnPKACXzo=;EntityPath=inventory-transactions"
+  }
+}

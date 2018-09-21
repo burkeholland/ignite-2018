@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME":  "dotnet",
+    "AzureWebJobsDashboard": "",
+    "EventHubsConnectionString": "Endpoint=sb://jehollan-inventory.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=m9H7U/bb39jVEQR+zWUQy8xKANRsOmohWnwvRDwe9Js=",
+    "CosmosDbEndpointUrl": "https://jehollan-inventory.documents.azure.com:443/",
+    "CosmosDbPrimaryKey": "OT0XzOghoRWJ3vW6SPFnsNULANAenza40rUGo2X56ni4edvMYz3s3IG5xBHi6UuFjMufmGQwi0bEfuoiYH5zrg==",
+    "AzureSignalRConnectionString": "Endpoint=https://jehollan-inventory.service.signalr.net;AccessKey=EQ2YIJtkoey9qcvicexDLTIX6mAyDAgo/Y9Ba2virfo=;",
+    "CosmosDbConnectionString": "AccountEndpoint=https://jehollan-inventory.documents.azure.com:443/;AccountKey=OT0XzOghoRWJ3vW6SPFnsNULANAenza40rUGo2X56ni4edvMYz3s3IG5xBHi6UuFjMufmGQwi0bEfuoiYH5zrg==;"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
+}

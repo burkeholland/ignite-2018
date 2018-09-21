@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<section class="wrapper style1">
+    <div class="container">
+        <div id="app">
+            <v-client-table :columns="columns" :data="data.inventory" :options="options">
+                <template slot="items" scope="props">
+                    <div class="bis">
+                        {{props}}
+                    </div>
+                    
+                </template>
+            </v-client-table>
+
+            <button v-on:click="connectToSignalR" v-bind:class="{ connected: isConnected }">{{buttonText}}</button>
+        </div>
+       </div>
+</section>
