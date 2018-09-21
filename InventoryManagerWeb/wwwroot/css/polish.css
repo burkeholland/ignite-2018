@@ -1,5 +1,6 @@
 hmlt, body {
   font-family: 'Montserrat', sans-serif;
+  background: #161616 !important;
 }
 
 #nav {
@@ -26,4 +27,93 @@ li.current {
 #nav ul li {
   padding: 0;
   margin: 0;
+}
+
+.wrapper.style1 {
+  background: #161616 url("../images/coffee-opt.png") right top no-repeat !important;
+}
+
+table {
+  border: 1px solid #706E6E;
+  opacity: 0.9;  
+  font-size: .9em;
+}
+
+th, tr, td {
+  font-size: .9em;
+  border: none;
+  padding: 15px;
+}
+
+th {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+td {
+  color: #161616;
+  font-weight: normal;
+}
+
+table tr:first-child {
+  border: none;
+}
+
+.VueTables__search-field {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 13px;  
+}
+
+.VueTables__search-field label {
+  color: white;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+
+.VueTables__search-field input {
+  padding: 3px 4px;
+  margin: 0;
+  font-size: 13px;  
+  background: #161616;
+  border: 2px solid #555;
+  border-radius: 8px;
+  color: #ccc;
+}
+
+.VueTables__search-field input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ccc;
+  margin-top: -5px;
+  display: inline-block;
+}
+
+.VueTables__search-field input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ccc;
+}
+
+.VueTables__search-field input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ccc;
+}
+
+.VueTables__search-field input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ccc;
+}
+
+nav.text-center {
+  color: #ccc !important;
+}
+
+h1 {
+  color: white;
+  font-weight: 200;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+tr:hover {
+  transition: 0.3s all ease !important;
 }
