@@ -1,3 +1,29 @@
 hmlt, body {
   font-family: 'Montserrat', sans-serif;
 }
+
+#nav {
+  padding: 0;
+  background-color: #161616;
+}
+
+#nav ul {
+  font-size: .8em;
+  padding: 10px;
+}
+
+#nav ul li a {
+  color: white;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+li.current {
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+}
