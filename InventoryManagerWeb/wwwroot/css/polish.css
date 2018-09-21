@@ -20,10 +20,10 @@ hmlt, body {
 
 li.current {
   border-radius: 20px;
-  border: 1px solid white;
+  border: 1px solid #5C5C5C;
 }
 
-ul li {
+#nav ul li {
   padding: 0;
   margin: 0;
 }

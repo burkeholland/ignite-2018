@@ -2928,12 +2928,6 @@ input, select, textarea {
 				width: 20%;
 			}
 
-		/* Header */
-
-			#header {
-				display: none;
-			}
-
 		/* Banner */
 
 			#banner {
@@ -2997,7 +2991,6 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px;
 			}
 
 			#titleBar {
