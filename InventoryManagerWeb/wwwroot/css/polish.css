@@ -46,7 +46,7 @@ th, tr, td {
 }
 
 th {
-  font-weight: bold;
+  font-weight: 600 !important;
   cursor: pointer;
 }
 
@@ -72,8 +72,8 @@ table tr:first-child {
 }
 
 .VueTables__search-field input {
-  padding: 3px 4px;
-  margin: 0;
+  padding: 3px 4px 10px;
+  margin: 3px 0 0;
   font-size: 13px;  
   background: #161616;
   border: 2px solid #555;
@@ -84,23 +84,25 @@ table tr:first-child {
 .VueTables__search-field input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #ccc;
-  margin-top: -5px;
   display: inline-block;
 }
 
 .VueTables__search-field input::-moz-placeholder {
   /* Firefox 19+ */
   color: #ccc;
+  display: inline-block;
 }
 
 .VueTables__search-field input:-ms-input-placeholder {
   /* IE 10+ */
   color: #ccc;
+  display: inline-block;
 }
 
 .VueTables__search-field input:-moz-placeholder {
   /* Firefox 18- */
   color: #ccc;
+  display: inline-block;
 }
 
 nav.text-center {
@@ -116,4 +118,13 @@ h1 {
 
 tr:hover {
   transition: 0.3s all ease !important;
+}
+
+button {
+  background: #161616;
+  font-size: 13px;
+  font-family: "Montserrat",
+  sans-serif;
+  letter-spacing: 0.02em;
+  border: 2px solid #555;
 }
