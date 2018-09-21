@@ -100,7 +100,6 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #474747;
-		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -3357,7 +3356,6 @@ div.table-title {
     color: #ffffff font-size: 30px;
     font-weight: 400;
     font-style: normal;
-    font-family: "Roboto", helvetica, arial, sans-serif;
     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
 }
